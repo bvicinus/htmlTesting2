@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>A Form Example (POST)</title>
+</head>
+<body>
+<form method="post" action="form_demo_post.html">
+    Please Register<br />
+    <br />
+    <input name="LastName"  style="position: static" type="text" />
+    <input name="FirstName" style="position: static" type="text" />
+    <br />
+    Last Name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; 
+    First Name<br />
+    <br />
+    Gender<br />
+    <input checked="checked" style="position: static" 
+    type="radio"  name="Gender" value="Unspecified" />
+    Unspecified<br />
+
+    <input style="position: static" 
+    type="radio" name="Gender" value="Male" />
+    Male<br />
+
+    <input style="position: static" 
+    type="radio" name="Gender" value="Female" />
+    Female<br />
+    <br />
+    
+    <input style="position: static" 
+    type="checkbox" name="CSE_Major" value="" />
+    CSE Dept. Major<br />
+    <br />
+    
+ Classification<br />
+    
+    <select style="width: 185px; position: static"
+        name="Classification" >
+        <option >Freshman</option>
+        <option >Sophomore</option>
+        <option >Junior</option>
+        <option >Senior</option>
+        <option >Graduate</option>
+        <option selected="selected">Unclassified</option>
+    </select>
+
+    <br />
+    <br />
+    <input style="position: static" 
+    type="submit" name="Submit_Button" value="submit" />
+    <br />
+    <br />
+    <input 
+    type="hidden" name="Hidden" value="This is a hidden input"/>
+</form>
+</body>
+</html>
